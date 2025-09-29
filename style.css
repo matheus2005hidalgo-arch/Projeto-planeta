@@ -30,3 +30,60 @@ body{
     font-size: 18px;
     color: var(--text-red);
 }
+.menu a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+.container{
+    width:100%;
+    max-width: 1136px;
+    margin: auto;
+    padding: 60px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.principal h4{
+    color: var(--text-red);
+    font-size: 16px;
+}
+.principal h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+.principal p{
+    font-size: 18px;
+    color:var(--text-gray);
+}
+.btns{
+    display: flex;
+    gap: 15px;
+}
+.btns a{
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.btns a:first-child{
+    background: var(--btn-color-blue);
+    color: #fff;
+}
+.btns a:last-child{
+    background: #fff;
+    border: 1px solid #333;
+    color: #333;
+}
+.card{
+    width: 390px;
+    height: 373px;
+    background-image: url("./img/roboui.jpg"); /*sua imagem*/
+
+}
